@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SelectCategoryActivity">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#E91E63"
+        android:visibility="visible"
+        app:labelVisibilityMode="labeled"
+        app:layout_behavior="tech.thdev.app.view.BottomNavigationBehavior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:text="완료"
+            android:textColor="@android:color/white"
+            android:textSize="30sp">
+
+        </TextView>
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.SelectCategoryActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:text="당신이 관심있는 카테고리를 선택해보세요. 당신과 비슷한 사용자의 위시리시트를 보여드릴게요!"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+    <GridLayout
+        android:id="@+id/catagory_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:useDefaultMargins="false">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            app:cardBackgroundColor="@color/colorBackGround"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/nanum_square_b"
+                android:padding="16dp"
+                android:text="패션/의류"
+                android:textColor="@color/colorEmpty"
+                android:textSize="24sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/cardviewbackground"
+            app:cardBackgroundColor="@color/colorBackGround"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/nanum_square_b"
+                android:padding="16dp"
+                android:text="패션잡화"
+                android:textColor="@color/colorEmpty"
+                android:textSize="24sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/cardviewbackground"
+            app:cardBackgroundColor="@color/colorBackGround"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/nanum_square_b"
+                android:padding="16dp"
+                android:text="화장품/미용"
+                android:textColor="@color/colorEmpty"
+                android:textSize="24sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/cardviewbackground"
+            app:cardBackgroundColor="@color/colorBackGround"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/nanum_square_b"
+                android:padding="16dp"
+                android:text="디지털/가전"
+                android:textColor="@color/colorEmpty"
+                android:textSize="24sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/cardviewbackground"
+            app:cardBackgroundColor="@color/colorBackGround"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/nanum_square_b"
+                android:padding="16dp"
+                android:text="가구/인테리어"
+                android:textColor="@color/colorEmpty"
+                android:textSize="24sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/cardviewbackground"
+            app:cardBackgroundColor="@color/colorBackGround"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/nanum_square_b"
+                android:padding="16dp"
+                android:text="출산/육아"
+                android:textColor="@color/colorEmpty"
+                android:textSize="24sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/cardviewbackground"
+            app:cardBackgroundColor="@color/colorBackGround"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/nanum_square_b"
+                android:padding="16dp"
+                android:text="식품"
+                android:textColor="@color/colorEmpty"
+                android:textSize="24sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/cardviewbackground"
+            app:cardBackgroundColor="@color/colorBackGround"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/nanum_square_b"
+                android:padding="16dp"
+                android:text="스포츠/레저"
+                android:textColor="@color/colorEmpty"
+                android:textSize="24sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/cardviewbackground"
+            app:cardBackgroundColor="@color/colorBackGround"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/nanum_square_b"
+                android:padding="16dp"
+                android:text="생활/건강"
+                android:textColor="@color/colorEmpty"
+                android:textSize="24sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/cardviewbackground"
+            app:cardBackgroundColor="@color/colorBackGround"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/nanum_square_b"
+                android:padding="16dp"
+                android:text="여가/생활편의"
+                android:textColor="@color/colorEmpty"
+                android:textSize="24sp" />
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

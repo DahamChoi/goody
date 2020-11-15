@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#f5f5f7</color>
+    <color name="colorPrimary">#1d1d1f</color>
+    <color name="colorPrimaryDark">#1d1d1f</color>
+    <color name="colorAccent">#1d1d1f</color>
+
+    <color name="colorEmpty">#2d2d2d</color>
+    <color name="colorFirstLabel">#1b1d1f</color>
+    <color name="colorBackGround">#f5f5f7</color>
+    <color name="colorSell">#fbfbfc</color>
+    <color name="white">#ffffff</color>
+    <color name="colorSearchBarColor">#322c2c2c</color>
+    <color name="colorSecondLabelColor">#4a4a4c</color>
+    <color name="colorSessionSeperlater">#322c2c2c</color>
+    <color name="Seperlater">#4cdcdcdc</color>
+    <color name="colorShadow">#d2d2d2</color>
+    <color name="colorShopButton">#2c2c2c</color>
+    <color name="colorThirdLabel">#808e8e8f</color>
+
+</resources>

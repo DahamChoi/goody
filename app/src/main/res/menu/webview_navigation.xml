@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_back"
+        android:icon="@drawable/ic_baseline_arrow_back_24"
+        android:title="뒤로" />
+
+    <item
+        android:id="@+id/navigation_share"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="공유" />
+
+    <item
+        android:id="@+id/navigation_web"
+        android:icon="@drawable/ic_baseline_web_asset_24"
+        android:title="웹으로" />
+
+    <item
+        android:id="@+id/navigation_save"
+        android:icon="@drawable/ic_outline_save_24"
+        android:title="저장" />
+
+</menu>

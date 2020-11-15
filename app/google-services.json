@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "711766296434",
+    "firebase_url": "https://goody-62bcd.firebaseio.com",
+    "project_id": "goody-62bcd",
+    "storage_bucket": "goody-62bcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711766296434:android:5e07708a3998e3ceccbfeb",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711766296434-qn2p6a0v4pbnfjnnoj890b93c65b3q2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnODsfF0JW-bjJECvYM8u52rU6hdPmZro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711766296434-qn2p6a0v4pbnfjnnoj890b93c65b3q2m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "711766296434-dsq5pblvc0k4ivfq2q947bujtg44sh9u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "mightyidler.goody"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711766296434:android:1f56157b926b6ae3ccbfeb",
+        "android_client_info": {
+          "package_name": "com.goody.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711766296434-qn2p6a0v4pbnfjnnoj890b93c65b3q2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnODsfF0JW-bjJECvYM8u52rU6hdPmZro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711766296434-qn2p6a0v4pbnfjnnoj890b93c65b3q2m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "711766296434-dsq5pblvc0k4ivfq2q947bujtg44sh9u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "mightyidler.goody"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
